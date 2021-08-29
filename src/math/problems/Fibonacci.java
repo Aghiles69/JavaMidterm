@@ -8,16 +8,16 @@ public class Fibonacci {
       0,1,1,2,3,5,8,13
      */
     public static void main(String[] args) {
-        int maxNumber = 40;
-        int previousNumber = 0;
-        int nextNumber = 1;
-        System.out.print("Fibonacci Series of "+maxNumber+" numbers:");
+        int maxNumb = 40;
+        int prevNumb = 0;
+        int nextNum = 1;
+        System.out.print("Fibonacci of "+maxNumb+" Nums: ");
 
-        for (int i = 1; i <= maxNumber; ++i){
-            System.out.print(previousNumber+" ");
-            int sum = previousNumber + nextNumber;
-            previousNumber = nextNumber;
-            nextNumber = sum;
+        for (int i = 1; i <= maxNumb; ++i){
+            System.out.print(prevNumb+" ");
+            int last = prevNumb + nextNum;
+            prevNumb = nextNum;
+            nextNum = last;
         }
     }
 

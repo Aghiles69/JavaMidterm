@@ -10,7 +10,7 @@ Java is the most known and used because java code can run is all different platf
 
 What is a JDK composed of? Define each components?
 Answer: Java Development Kit is a software development environment
-JDK = JRE + Javac + Jar + Javadoc + Development tools.
+JDK = JRE + Javac + Jar + Javadoc + Development tools(collection of libraries) .
 JRE is the Java Runtime Environment that we used to run java code on a machine
 Javac is Java compiler that turn the human-readable code to a machine-readable Byte code.
 Jar is Java archiver witch is a code stored and ready to be used like dependencies.
@@ -27,53 +27,84 @@ Intellij(the best),Eclipse(main stream) and Netbeans are some IDEs available.
 
 Explain the entire java life cycle.
 Answer:
+Writing a Java code in the IDE as a .java file than compile it into a .class file computer readable than the JVM verifies(in Bytecode verifier) and execute the code
+in the interpreter
 
 
 What is a class?
 Answer:
+A Class is a blueprint where objects are created, it's declared in CapitalCamelCase, and it has states and behaviours (methods , objects)
 
 What is an object?
 Answer:
+An Object is real-world entity that has State(attributes) and behavior (methods) , every instance of an object shares he's properties
 
 What is the entry point of an application?
 Answer:
-
+the Main method ( Driver method for java code)
 Why is the main() static?
 Answer:
+the Main method is always static because we want to be able to call it without the creation of an object of it.
 
 Which class is the superclass of all classes?
 Answer:
+Object Class
 
 What is difference between path and classpath variables?
 Answer:
+Path is an environment variable that is used to locate JDK that we need to run and compile source files
+Classpath is an environment variable used by javac to locate the class files.
 
 What is the difference between an Interface and Abstract class?
 Answer:
+Abstraction is hiding data suck as implementation details of the methods , keyword used for abstraction is Abstract we need to use it in order to make a class Abstract.
+Interface is Always abstract by default ,objects of interface cannot be created and all the methods inside an interface must be abstract and all the variables are constants(static ,fianl).
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
 Answer:
+No , you cannot create an object of an interface or abstract class because of its incomplete implementation, and it's meant to be overridden by a child class.
 
 What is Access Modifier?
 Answer:
+An Access modifier allow the developer ths restrict access to members of a class.
+we have four access modifiers in java : Public, Private , protected and default.
 
 What is OOP? Define each OOP concept.
 Answer:
+Object-oriented programming is a specific way to implement a software or a programme using objects to organize the use and access of the code written
+             Encapsulation: Data hiding, for the data we need but don't want anyone to access it(getters and setters).
+             Polymorphism: overloading and overriding methods. the ability of an entity to take several forms.
+             Abstraction: Hiding implementation details of methods and showing only the essentials.
+             Inheritance: Used to Extend states and behaviors of a class to another class(IS-A relationship).
 
 What is Java Package and which package is imported by default?
 Answer:
+Java Package is a group of similar classes its way to organize the display of data.
+There are two types of packages:
+        Build-in packages.
+        User-defined packages.
+ By default, java.lang is imported.
 
 What is an API? List some API's that you have used so far.
 Answer:
+Application Programming Interface :allows two application to communicate with each other.
+
 
 Does java support multiple inheritance? Why or why not?
 Answer:
+No,Java does not support multiple inheritance because java will get confused about the source of methods called in other words
+from which parent class to take state and behaviors .
 
 What is method overloading and when does it happen?
 Answer:
+Method overloading is a OOP Concept and part of polymorphism it happened in compile time.
 
 Explain exceptions in java and how to handle them.
 Answer:
-
+Exception happen when we have invalid data in our code that leads the code to break when we run it
+or not being able to run at all
+there are different types of exceptions like compile time exceptions , run time exceptions and errors .
+we can handle exceptions with a Try/Catch method, by specifying the exception we want to handle or using a general catch-all exceptions
 What is static keyword? When and how do we use it?
 Answer:
 
@@ -130,6 +161,8 @@ Answer:
 
 What is Singleton class?
 Answer:
+A Singleton class in Java allows only one instance to be created and provides access to
+all other classes through this object only.
 
 What is Serialization and Deserialization?
 Answer:

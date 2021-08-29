@@ -11,5 +11,9 @@ public class Pattern {
 
         */
 
+
+
+        //The Pattern is -1 (10 times) than -2 (10 times) than -3 ( 10times) and -4(10times) till 0
+
     }
 }

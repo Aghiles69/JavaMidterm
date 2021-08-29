@@ -2,9 +2,12 @@
 
 Why do we need data structure?
 Answer:
+Data Structures is needed to enable the programmers to handle the data in an efficient way. It plays a big role in enhancing the performance of a software or a program as
+the main function of the software is to store and retrieve the user's data as fast as possible.
 
 What are the various operations that can be performed on different data structures?
 Answer:
+Insert , delete , Search (fetch) , Sort and travers.
 
 When would we use data structures in the real world?
 Answer:

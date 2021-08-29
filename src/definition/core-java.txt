@@ -105,8 +105,10 @@ Exception happen when we have invalid data in our code that leads the code to br
 or not being able to run at all
 there are different types of exceptions like compile time exceptions , run time exceptions and errors .
 we can handle exceptions with a Try/Catch method, by specifying the exception we want to handle or using a general catch-all exceptions
+
 What is static keyword? When and how do we use it?
 Answer:
+
 
 What is final keyword? When and how do we use it?
 Answer:
@@ -153,8 +155,10 @@ Answer:
 What is heap?
 Answer:
 
+
 How does Java manage its memory?
 Answer:
+Java Manage its memory thanks to garbage collections.
 
 What is the difference between String, StringBuffer and StringBuilder?
 Answer:
@@ -163,66 +167,99 @@ What is Singleton class?
 Answer:
 A Singleton class in Java allows only one instance to be created and provides access to
 all other classes through this object only.
+Singleton has a private constructor and a static method that has a return type object of this singleton class.
 
 What is Serialization and Deserialization?
 Answer:
 
 Explain the difference between While and Do..While loops?
 Answer:
+While loop checks the condition before executing the block so its execute and/or iteration happens only if the condition is met.
+A Do while loop execute the block at least one time, and only iterate if the condition is met in other word after one execution
+it checks the condition statement than execute again only if it passes.
 
 What is Enum?
 Answer:
-
+An Enum is place where we store values that we want to be constant in the whole application , so we can call and use these values.
+the Syntax of the values of an Enum is UPPERCASE Always.
 What is Iterator?
 Answer:
+Iterator is used to loop through collections
 
 Which one will take more memory: an int or Integer? Why?
 Answer:
+Integer will take more memory to store (16 bytes) compare to the (4bytes) primitive data type int .
 
 Why are Strings considered to be immutable in Java?
 Answer:
+Because it's not modifiable in Java ( unchangeable / uneditable ).
 
 What is constructor chaining in Java?
 Answer:
+Constructor chaining is to call a constructor with another one while respecting its parameters.
 
 The difference between Serial and Parallel Garbage Collector?
 Answer:
+the parallel collector has multiple threads that are used to speed up garbage collection.
 
 What does JIT stands for?
 Answer:
+JUST IN TIME.
 
 Explain the process of Java garbage collection?
 Answer:
+When there is an unused object that your machine detects or an address that point to nothing
+the data is automatically collected to Garbage collections.
 
 Can you guarantee the garbage collection process?
 Answer:
+No, we always need a place to store this collections so the process can fail in this case.
 
 What is the difference between stack and heap in Java?
 Answer:
+static methods and all variable with non-primitive data type are stored in Heap, heap is a dynamic memory allocation
+Stack is more of a temporary place to stock references for example.
 
 What is reflection in Java and why is it useful?
 Answer:
-
+Reflection is used to examine or modify the behavior of methods and classes ( to introspect and manipulate data)
 What is multithreading in Java?
 Answer:
+It is executing multiple threads ( 2 or more ) at the same time.
 
 What is synchronization in Java?
 Answer:
 
 What is a Framework?
 Answer:
+It is a collection of predefined classes and functions used to process or serve a pre-defined purpose.
+
 
 What are the testing Frameworks available in Java?
 Answer:
+Cucumber , Junit, TestNG ,Selenium, JBehave,  Serenity .etc.
 
 What are jUnit and testNG?
 Answer:
+jUnit is a unit testing framework for Java and
+TestNg is Test Next Generation,an Open source framework for automation testing in java.
 
 What are the dependencies for this project?
 Answer:
+      *gson-2.6.2.jar
+      *jackson-annotations-2.11.3.jar
+      *jackson-core-2.11.3.jar
+      *jackson-databind-2.11.3.jar
+      *java-json.jar
+      *javax.json-1.0.jar
+      *mongo-java-driver-3.4.0.jar
+      *mysql-connector-java-8.0.26-bin.jar
+      *testing-6.8.7.ja
 
 What is dependency injection in Java?
 Answer:
+The injection refers to the passing of a dependency to a specific use as getting an object to another one.
 
 Explain what static binding and dynamic binding is?
 Answer:
+Dynamic binding uses objects to resolve binding, whereas static binding uses the type of the class and fields.

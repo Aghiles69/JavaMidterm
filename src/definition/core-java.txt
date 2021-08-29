@@ -147,14 +147,17 @@ What is the difference between JDK and JVM?
 Answer:
 
 What is the difference between JVM and JRE?
-Answer:
+Answer: JVM is a part of JRE that means that
 
 Explain the difference between compile-time and run-time?
 Answer:
+Compile time happen if we have a syntax error that impeach us to run the code.
+Run time error happen when the code is executed but has problem within it's writing .
 
 What is heap?
 Answer:
-
+Heap is pre-reserved memory location,it's a global memory pool. Non-primitive data types are stored in the heap.
+Heap stores the real objects.
 
 How does Java manage its memory?
 Answer:

@@ -11,70 +11,132 @@ Insert , delete , Search (fetch) , Sort and travers.
 
 When would we use data structures in the real world?
 Answer:
+To improve the efficiency of our work , to Organize and manage ou Data as we want.
 
 What is an Array?
 Answer:
+An array is a data structure that contains a group of elements of the same data type.
 
 What is the difference between Array and ArrayList?
 Answer:
+ArrayList has set of methods to access elements and modify and An array is a basic data structured provided by java.
 
 What is a LinkedList?
 Answer:
+A linked List is a data structure where the data is stored and each index point to the next index only and doesn't have
+an actual ordered place so if we want to add data between two indexes we only need to change the pointers .
 
 How is an Array different from LinkedList?
 Answer:
+The Array dosent have addresses of the values like the linked list so the linked list is more dynamic that an array.
 
 What is a Queue?
 Answer:
+in FIFO Concept we use queue to add at the end or remove from the beginning elements.
 
 What is a Stack (not Java memory - refers to data structure)?
 Answer:
+A Stack is data structure where we add elements to the top of the previous one and can only be accessed by removing the last that the one before etc
+it's called LIFO.
 
 What is FIFO and LIFO?
 Answer:
+FIFO is First In First Out.
+LIFO is Last in First Out.
 
 Explain Big O Notation?
 Answer:
+When considering time as resource , Big o Notations Guide us to compare and manage the performance and run time of our code.
 
 What is the best case to search an element from an array?
 Answer:
+the Best case is O(1)
+
 
 What is the worst case to search an element from an array?
 Answer:
+the Worst case is O(n)
 
 Describe what a tree data structure is?
 Answer:
+Tree is a hierarchical data structure defined as a collection of nodes, and it's a non-linear data structure .
 
 Describe what a graph data structure is?
 Answer:
 
+
 What is the difference between the HashTable and HashMap?
 Answer:
+HashMap is non synchronized. It is not-thread safe and can't be shared between many threads without proper synchronization code and traversed by Iterator.
+Hashtable is traversed by Enumerator and Iterator and is a legacy class that doesn't allow any null key or value.
 
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model
 Answer:
+
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
 Answer:
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
 Answer:
-
+ArrayIndexOutOfBoundsException is part of java.lang library, and it occurs
 What are the different ways of copying an array into another array?
 Answer:
 
 What is DFS and BFS?
 Answer:
+DFS, stands for Depth First Search. BFS uses Queue to find the shortest path.
+
 
 What is Recursion?
 Answer:
-
+It is calling a method by itself directly or not .
 What are linear and non-linear data Structures?
 Answer:
 
 
 Outline different sorting algorithms and their time complexities:
+*Selection Sort
+ Complexity:
+ •Best: Ω(n^2)
+ •Average: θ(n^2)
+ •Worst: O(n^2)
 
+*Bubble Sort
+ Complexity:
+ •Best:Ω(n)
+ •Average:θ(n^2)
+ •Worst: O(n^2)
+
+*Heap Sort
+ Complexity:
+ •Best:	Ω(n log(n))
+ •Average: θ(n log(n))
+ •Worst: O(n log(n))
+
+*Quick Sort
+ Complexity:
+ •Best: Ω(n log(n))
+ •Average: θ(n log(n))
+ •Worst: O(n^2)
+
+*Merge Sort
+ Complexity:
+ •Best: Ω(n log(n))
+ •Average: θ(n log(n))
+ •Worst:  O(n log(n))
+
+ Bucket Sort
+  Complexity:
+  •best: Ω(n+k)
+  •Average: θ(n+k)
+  •Worst: O(n^2)
+
+Radix Sort
+ Complexity:
+ •Best: Ω(nk)
+ •Average: θ(nk)
+ •Worst: O(nk)
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a) In terms of Accessing elements:

@@ -9,7 +9,7 @@ public class Sort {
      * Store all the sorted data into one of the databases.
      */
 
-    public static void printSortedArray(@org.jetbrains.annotations.NotNull int[] array) {
+    public static void printSortedArray( int[] array) {
         Sort.array = array;
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);

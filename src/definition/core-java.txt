@@ -2,18 +2,32 @@
 
 What is a programming language?
 Answer:
+A Programming language is a specific way to write a code that a computer can read in order to execute or perform a task
+there are many programming languages that developers use to implement application for example : Java,Python or C++.
+Every programme written with a programming language is specific to the platform where the code will be executed
+Java is the most known and used because java code can run is all different platform ( platform-agnostic)
+
 
 What is a JDK composed of? Define each components?
-Answer:
+Answer: Java Development Kit is a software development environment
+JDK = JRE + Javac + Jar + Javadoc + Development tools.
+JRE is the Java Runtime Environment that we used to run java code on a machine
+Javac is Java compiler that turn the human-readable code to a machine-readable Byte code.
+Jar is Java archiver witch is a code stored and ready to be used like dependencies.
+Javadoc is Java document generator , a tool in Java for creating standard documents to store project in a different format
 
 What is an IDE?
 Answer:
+An integrated development environment is a software environment that regroup tools required to write code in order to test software applications
+An IDE provides a developer a way to maximize his productivity thanks to all his useful tools.
 
 What are some of the most popular Java IDEs available in the market?
 Answer:
+Intellij(the best),Eclipse(main stream) and Netbeans are some IDEs available.
 
 Explain the entire java life cycle.
 Answer:
+
 
 What is a class?
 Answer:

@@ -63,7 +63,7 @@ Tree is a hierarchical data structure defined as a collection of nodes, and it's
 
 Describe what a graph data structure is?
 Answer:
-
+It's interconnecting paths and vertices of a data structure .
 
 What is the difference between the HashTable and HashMap?
 Answer:
@@ -72,14 +72,17 @@ Hashtable is traversed by Enumerator and Iterator and is a legacy class that doe
 
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model
 Answer:
-
+we Use arrays for RDBMS , graphs in NetWork data model and Hierarchical with Tree.
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
 Answer:
+HashMap stores data in a key/value pair and Keys are not duplicated.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
 Answer:
-ArrayIndexOutOfBoundsException is part of java.lang library, and it occurs
+
+ArrayIndexOutOfBoundsException is part of java.lang library, and it occurs when an element is not accessible of is in an empty index.
+
 What are the different ways of copying an array into another array?
 Answer:
 
@@ -91,9 +94,12 @@ DFS, stands for Depth First Search. BFS uses Queue to find the shortest path.
 What is Recursion?
 Answer:
 It is calling a method by itself directly or not .
+
 What are linear and non-linear data Structures?
 Answer:
 
+In a linear data structure, data elements are arranged in a linear order.
+In a non-linear data structure, data elements are attached hierarchically
 
 Outline different sorting algorithms and their time complexities:
 *Selection Sort

@@ -118,33 +118,45 @@ Answer:
 
 What is a constructor?
 Answer:
+A Constructor look like a Method it's used when we create an instance of a class and must have the same name as a class.
 
 Can we have multiple constructors in a class?
 Answer:
+Yes as long as the parameters and order are different.
 
 If we don't have a constructor declared, what is called during the object creation?
 Answer:
+The Default constructor is called when there is no constructor implemented
 
 What is "this" keyword in Java? When would we use it?
 Answer:
+This is used to refer to an object in a method or constructor
+we use it to implement getters and setters.
 
 What is "super" keyword in Java? What are some scenarios we would use it?
 Answer:
+Super keyword refers to Superclass object
+It is used to call superclass methods and to access the superclass constructor.
 
 What does JVM stand for?
 Answer:
+Java Virtual Machine
 
 Is JVM platform independent?
 Answer:
+No it's not.
 
 What version of Java are you using?
 Answer:
+Java 11.0.12
 
 What does JAR stand for?
 Answer:
+Java Archives
 
 What is the difference between JDK and JVM?
 Answer:
+Java development kit and java virtual machine
 
 What is the difference between JVM and JRE?
 Answer: JVM is a part of JRE that means that

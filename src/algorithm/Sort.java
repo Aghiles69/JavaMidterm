@@ -72,6 +72,7 @@ public class Sort {
         final long startTime = System.currentTimeMillis();
         int[] list = array;
         //implement here
+        long endTime;
         final long executionTime = endTime - startTime;
         this.executionTime = executionTime;
         return list;
@@ -82,6 +83,7 @@ public class Sort {
         int[] list = array;
         //implement here
 
+        long endTime;
         final long executionTime = endTime - startTime;
         this.executionTime = executionTime;
         return list;

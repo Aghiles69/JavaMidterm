@@ -10,29 +10,11 @@ public class PrimeNumber {
 
          Print out the prime numbers in the given range.
          */
-        int num;
-        public static void Prime(int num){
-            boolean isPrime = true;
-            for (int i = 2; i<=num; i++){
-                isPrime = true;
-
-
-
-                for (int j = 2; j < i ; j++){
-                    if ( i % j == 0){
-                        isPrime = false;
-                        break;
-
-                    }
-
-                }
-                if (isPrime){
-                    System.out.println(i+ " ");
-                }
+      //     }
             }
 
         }
 
-    }
+    //}
 
-}
+//}

@@ -9,7 +9,9 @@ public class UseArrayList {
          *
          * Store and retrieve data from/to a database table.
          */
-
+        Sort both strings
+        Arrays.sort(str1);
+        Arrays.sort(str2);
     }
 
 }

@@ -9,6 +9,10 @@ public class Palindrome {
 
             Write a method to check if a given String is a palindrome or not.
          */
+        static boolean isPalindrome(String)
 
-    }
+    if()
+
+    return true;
+
 }

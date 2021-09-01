@@ -37,7 +37,7 @@ in FIFO Concept we use queue to add at the end or remove from the beginning elem
 What is a Stack (not Java memory - refers to data structure)?
 Answer:
 A Stack is data structure where we add elements to the top of the previous one and can only be accessed by removing the last that the one before etc
-it's called LIFO.
+it's called LIFO(Last In First Out).
 
 What is FIFO and LIFO?
 Answer:

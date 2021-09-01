@@ -89,23 +89,14 @@ public class Sort {
         return list;
     }
 
-    public int[] bucketSort(int[] array) {
-        final long startTime = System.currentTimeMillis();
-        int[] list = array;
+  //  public int[] bucketSort(int[] array) {
+    //    final long startTime = System.currentTimeMillis();
+   //     int[] list = array;
         //implement here
 
-        final long executionTime = endTime - startTime;
-        this.executionTime = executionTime;
-        return list;
-    }
+       // final long executionTime = endTime - startTime;
+      //  this.executionTime = executionTime;
+       // return list;
+   // }
 
-    public int[] shellSort(int[] array) {
-        final long startTime = System.currentTimeMillis();
-        int[] list = array;
-        //implement here
-
-        final long executionTime = endTime - startTime;
-        this.executionTime = executionTime;
-        return list;
-    }
-}
+   //
